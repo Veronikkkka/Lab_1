@@ -162,15 +162,15 @@ def main():
     """
     This function call all functions in right order
     """
-    # year, lattitude, longtitude, path = get_info_from_user()
-    year = "1896"
-    lattitude, longtitude = 50.4500336, 30.5241361
-    path = "locations.list"
+    year, lattitude, longtitude, path = get_info_from_user()
+    # year = "1896"
+    # lattitude, longtitude = 50.4500336, 30.5241361
+    # path = "locations.list"
     res = read_file_and_create_loc_list(year, lattitude, longtitude, path)
     result = get_result_list(res)
     create_map(result, year, lattitude, longtitude)
 
-# if __name__ == "main":
-main()
+if __name__ == "main":
+    main()
 # import doctest
 # doctest.testmod()
