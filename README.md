@@ -13,3 +13,4 @@ marks of them to map.
 
 >>> python main.py 1895 50.4500336 30.5241361 locations.list
 ![image](https://user-images.githubusercontent.com/91616836/153553176-530ab506-7f98-4493-a643-e8b797556ae2.png)
+if mark has a shadow, there are several marks near(it will be visible after zooming)
